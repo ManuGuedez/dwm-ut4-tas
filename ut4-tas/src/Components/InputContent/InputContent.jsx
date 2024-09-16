@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import classes from"./InputContent.module.css"
+
+// TA 3
 
 // con los states
 function InputComponent() {
@@ -16,7 +19,7 @@ function InputComponent() {
         onChange={handleChange} 
         placeholder="Escribe algo..." 
       />
-      <p>Valor del input: {inputValue}</p>
+      <p className={classes.texto}>Valor del input: {inputValue}</p>
     </>
   );
 }

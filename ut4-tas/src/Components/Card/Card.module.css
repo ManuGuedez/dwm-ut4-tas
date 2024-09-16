@@ -1,0 +1,20 @@
+/* .card h1 {
+    color: rgb(133, 95, 95);
+    background-color: pink;
+    border-radius: 10px;
+    font: 30px sans-serif;
+}
+
+.card p {
+    font: 20px times-new-roman;
+    text-align: start;
+    line-height: 15px;
+
+} */
+
+.card {
+    background-color: rgb(243, 154, 145);
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;    
+}

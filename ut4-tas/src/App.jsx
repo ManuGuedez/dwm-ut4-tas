@@ -2,10 +2,13 @@ import Card from "./Components/Card/Card.jsx";
 import CardContent from "./Components/CardContent/Cardcontent.jsx";
 import "./App.css";
 import InputComponent from "./Components/InputContent/InputContent.jsx";
+import Counter from "./Components/Counter/Counter.jsx";
+import TextAppear from "./Components/TextAppear/TextAppear.jsx";
 
 function App() {
   return (
     <div className="App">
+      <h2>Trabajo de aplicación 2</h2>
       <Card>
         <CardContent
           title="titulo 1"
@@ -33,7 +36,18 @@ function App() {
           deadline="mañana"
         />
       </Card>
-      <InputComponent/>
+      <h2>Trabajo de aplicación 3</h2>
+      <Card>
+        <InputComponent />
+      </Card>
+      <h2>Trabajo de aplicación 4</h2>
+      <Card>
+        <Counter />
+      </Card>
+      <h2>Trabajo de aplicación 5</h2>
+      <Card>
+        <TextAppear />
+      </Card>
     </div>
   );
 }

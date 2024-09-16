@@ -1,0 +1,8 @@
+.texto {
+    font: 15px sans-serif;
+    text-align: start;
+    margin-left: 20px;
+    line-height: 15px;
+    max-width: 240px;
+}
+
