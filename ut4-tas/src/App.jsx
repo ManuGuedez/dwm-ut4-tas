@@ -4,6 +4,7 @@ import "./App.css";
 import InputComponent from "./Components/InputContent/InputContent.jsx";
 import Counter from "./Components/Counter/Counter.jsx";
 import TextAppear from "./Components/TextAppear/TextAppear.jsx";
+import TasksList from "./Components/TasksList/TasksList.jsx";
 
 function App() {
   return (
@@ -47,6 +48,10 @@ function App() {
       <h2>Trabajo de aplicación 5</h2>
       <Card>
         <TextAppear />
+      </Card>
+      <h2>Trabajo de aplicación 6, 7 y 8</h2>
+      <Card>
+        <TasksList />
       </Card>
     </div>
   );
